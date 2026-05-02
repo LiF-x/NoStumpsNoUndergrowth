@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "NoStumpsNoUndergrowth",
+  "name": "NoStumpsNoUndergrowth",
+  "version": "1.0.0",
+  "description": "Removes stumps and undergrowth during bootup.",
+  "authors": ["Christophe Roblin"],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      { "src": "mod.cs", "dest": "mods/NoStumpsNoUndergrowth/mod.cs" }
+    ],
+    "dataPatches": []
+  }
+}
