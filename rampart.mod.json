@@ -1,18 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "NoStumpsNoUndergrowth",
-  "name": "No Stumps No Undergrowth",
+  "name": "NoStumpsNoUndergrowth",
   "version": "1.0.0",
-  "description": "Removes stumps and undergrowth during server bootup.",
+  "description": "Removes stumps and undergrowth during bootup.",
   "authors": ["Christophe Roblin"],
-  "source": {
-    "repo": "LiF-x/NoStumpsNoUndergrowth",
-    "commit": "b8a689e3599360d6c822fa1c216868f773eb616b"
-  },
-  "baseline": {
-    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
-    "steamBuildId": "11261643"
-  },
+  "source": { "repo": "LiF-x/NoStumpsNoUndergrowth", "commit": "b8a689e3599360d6c822fa1c216868f773eb616b" },
+  "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
   "license": "GPL-3.0-only",
   "distribution": "hostable",
   "dependencies": ["LiF-x/ServerAutoloader"],
